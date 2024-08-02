@@ -92,7 +92,7 @@ Desvantagens: Pode aumentar a latência, não sendo ideal para sistemas que exig
 
 Vantagens: Alta disponibilidade e tolerância a falhas. Escalabilidade horizontal.
 
-Desvantagens: Difícil implementação. Requer mecanismos adicionais para garantir a consistência.
+Desvantagens: Difícil implementação.
 
 A solução mais adequada depende do contexto e necessidades específicas.
 Para o desafio em questão, combinar Optimistic Locking, para garantir a integridade dos dados, com Pessimistic Locking em casos de alta concorrência, confere uma abordagem prática. Também o uso de filas distribuídas para gerenciar a concorrência em ambientes que necessitam de alta escalabilidade.
